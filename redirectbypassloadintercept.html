@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CSP -->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">-->
+    <!--<meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">-->
+    <title>重定向绕过url检测</title>
+  </head>
+  <body>
+	<p>重定向绕过url检测</p></br>
+	<script>
+		window.location.href="javascript:console.info('wzztest:token is: ' + testObjName.getToken())"
+	</script>
+  </body>
+</html>
