@@ -5,7 +5,7 @@
 		"versionCode": 1000000,
 		"versionName": "1.0.0",
         "label": "Demo",
-		"deployDomain": "gitee.com",
+		"deployDomain": "13913047063.github.io",
 		"minAPIVersion": "4.1.0(11)",
 		"targetAPIVersion": "4.1.0(11)",
 		"modules": [
@@ -17,7 +17,7 @@
 					"2in1",
 					"phone"
 				],
-				"packageUrl": "https://gitee.com/toads/ts/raw/master/r1.hap",
+				"packageUrl": "https://13913047063.github.io/toads/ts/raw/master/r1.hap",
 				"packageHash": "bedd900ac0a4ea4f611877de5b68dbc2d67ec4b8f6a0aa90c770203b8c8e9990"
 			}
 		],
